@@ -28,9 +28,9 @@ void SimpleEQAudioProcessorEditor::paint (juce::Graphics& g)
     // (Our component is opaque, so we must completely fill the background with a solid colour)
     g.fillAll (getLookAndFeel().findColour (juce::ResizableWindow::backgroundColourId));
 
-    g.setColour (juce::Colours::white);
-    g.setFont (32.0f);
-    g.drawFittedText ("Hello World!", getLocalBounds(), juce::Justification::centred, 1);
+    g.setColour (juce::Colours::red);
+    g.setFont (44.0f);
+    g.drawFittedText ("Hello New PFM Student", getLocalBounds(), juce::Justification::centred, 1);
 }
 
 void SimpleEQAudioProcessorEditor::resized()
